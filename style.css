@@ -221,5 +221,164 @@
     background-image: linear-gradient(rgba(45,57,64,0.6),rgba(45,57,64,0.6)), url('images/advantagecover.jpg');
     background-position: center;
     background-size: cover;
-    height: 80vh;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.advantagediv{
+    border-radius: 0.5em;
+}
+.advantagepara{
+    display: flex;
+    flex-direction: column;
+}
+.divtest{
+
+    background-image: url('images/cargaison1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+#containerbtn{
+    background-color: #ffb7b1; 
+    width: 200px; 
+    color: #871e1c; 
+    border-radius: 0.5em; 
+    margin-top: 260px;
+    padding: 15px;
+}
+.divtest2{
+    background-image: url('images/cargaison2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 15px;
+    margin-bottom: 100px;
+    
+}
+.divtest3{
+    background-image: url('images/cargaison3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 15px;
+    margin-bottom: 100px;
+}
+#containerbtn2{
+    background-color: #871e1c; 
+    width: 200px; 
+    color: #fff; 
+    border-radius: 0.5em; 
+    margin-top: 260px;
+    padding: 15px;
+}
+.divgene{
+    position:relative;
+    right: 100px;
+}
+#divhov:hover{
+    background-image: linear-gradient(rgba(45,57,64,0.6),rgba(45,57,64,0.6)), url('images/cargaison1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 15px;
+    
+}
+
+#divhov2:hover{
+    background-image: linear-gradient(rgba(45,57,64,0.6),rgba(45,57,64,0.6)), url('images/cargaison2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 15px;
+}
+#divhov3:hover{
+    background-image: linear-gradient(rgba(45,57,64,0.6),rgba(45,57,64,0.6)), url('images/cargaison3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    margin: 15px;
+}
+.advantagediv:hover{
+    background-color: #ffe5e3!important;
+}
+#titlemin{
+    position: relative;
+    right: 85px;
+    top:10px;
+}
+#maindestination{
+    background-image: url('images/bgsection2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+#titlemin2{
+    position: relative;
+    right: 5px;
+    top:10px;
+}
+#track:hover{
+    background-color: #ffb7b1;
+}
+.parteners{
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    padding-top: 20px;
+}
+.partenersparent{
+    position: relative;
+    top: -180px;
+    left: 100px;
+}
+#news{
+    background-image: linear-gradient(rgba(146,55,57,0.8),rgba(146,55,57,0.8)) , url('images/advantagecover2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+}
+
+#address{
+    position: relative;
+    top: 15px;
+    color: #871e1c;
+    font-weight: bold;
+}
+#addressdiv{
+    position: relative;
+    left: 130px;
+}
+footer{
+    background-color: #871e1c;
+    margin-top: 200px;
+}
+#addressinfo{
+    margin-top: 110px;
+    color: #fff;
 }
